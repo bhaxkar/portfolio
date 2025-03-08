@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "This is my portfolio website",
-  "main": "index.js",
+  "main": "index.html",
   "type": "module",
   "scripts": {
     "start": "parcel index.html",
