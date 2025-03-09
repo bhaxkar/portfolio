@@ -32,9 +32,9 @@ const Header = () => {
                 <div className="text-custom-yellow mt-6">
                     <p className="text-xl md:text-2xl mb-4 font-mono text-left md:text-left">Right Now, I'm</p>
                     <ul className="space-y-4 font-mono">
-                       <li className="text-base md:text-base">➢ Honing my technical acumen in Information Technology at <a href="https://hithaldia.ac.in/" className="underline hover:text-red-200 transition-colors">Haldia Institute of Technology</a>.</li>
-                       <li className="text-base md:text-base">➢ Working as <span className="font-bold">SDE Intern</span> at <a href="https://www.turnpikeanalyst.com/" className="underline hover:text-red-200 transition-colors">Turnpike Analyst</a>, contributing to innovative solutions.</li>
-                       <li className="text-base md:text-base">➢ Spearheading technical initiatives as the <a href="https://www.instagram.com/acmhitchapter/" className="underline hover:text-red-200 transition-colors">ACM HIT Student Chapter's</a> <span className="font-bold">Tech Lead</span>.</li>
+                       <li className="text-lg md:text-base">➢ Honing my technical acumen in Information Technology at <a href="https://hithaldia.ac.in/" className="underline hover:text-red-200 transition-colors">Haldia Institute of Technology</a>.</li>
+                       <li className="text-lg md:text-base">➢ Working as <span className="font-bold">SDE Intern</span> at <a href="https://www.turnpikeanalyst.com/" className="underline hover:text-red-200 transition-colors">Turnpike Analyst</a>, contributing to innovative solutions.</li>
+                       <li className="text-lg md:text-base">➢ Spearheading technical initiatives as the <a href="https://www.instagram.com/acmhitchapter/" className="underline hover:text-red-200 transition-colors">ACM HIT Student Chapter's</a> <span className="font-bold">Tech Lead</span>.</li>
                     </ul>
                 </div>
             </div>
