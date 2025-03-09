@@ -4,6 +4,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom"
 import Header from "./components/Header.js"
 import Body from "./components/Body.js"
 import About from "./components/About.js"
+import Error from "./components/Error.js"
 
 
 const AppLayout = () =>{
@@ -19,6 +20,7 @@ const AppRouter = createBrowserRouter([
     {
         path: "/",
         element: <AppLayout/>,
+        errorElement: <Error/>,
         children:[
             {
                 path: "/",
