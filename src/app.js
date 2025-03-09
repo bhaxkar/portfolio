@@ -1,9 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom"
-import Header from "./components/Header"
-import Body from "./components/Body"
-import About from "./components/About"
+import Header from "./components/Header.js"
+import Body from "./components/Body.js"
+import About from "./components/About.js"
 
 
 const AppLayout = () =>{
