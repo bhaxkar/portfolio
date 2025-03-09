@@ -1,4 +1,4 @@
-import ToolsCarousel from "./Tool"
+import ToolsCarousel from "./Tool.js"
 
 const About = () => {
   return (
