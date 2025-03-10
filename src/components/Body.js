@@ -3,7 +3,7 @@ import githubIcon from '../../public/icons/github.svg';
 
 const Body = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black py-12 md:py-16 flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black py-16 md:py-16 flex items-center justify-center">
       <div className="w-11/12 md:w-8/12 lg:w-6/12 mx-auto backdrop-blur-sm bg-black/40 p-6 md:p-8 rounded-2xl shadow-2xl border border-gray-800 relative overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute -top-20 -right-20 w-40 h-40 bg-custom-yellow/10 rounded-full blur-3xl"></div>
