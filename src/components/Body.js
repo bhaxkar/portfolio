@@ -72,12 +72,12 @@ const Body = () => {
                 <div className="flex items-start">
                   <span className="text-lg mr-3">➢</span>
                   <p className="text-lg">
-                    Spearheading technical initiatives as the{" "}
+                    Spearheading technical initiatives at{" "}
                     <a
                       href="https://www.instagram.com/acmhitchapter/"
                       className="underline decoration-dotted hover:text-red-200 transition-colors"
                     >
-                      ACM HIT Student Chapter's
+                      ACM HIT Student's Chapter
                     </a>
                     .
                   </p>
