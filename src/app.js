@@ -6,12 +6,14 @@ import Main from './components/Main.js'
 import About from './components/About.js'
 import Error from './components/Error.js'
 import Projects from './components/Projects.js'
+import Footer from './components/Footer.js'
 
 const AppLayout = () =>{
     return(
         <div className="bg-gradient-to-b from-gray-900 to-black min-h-screen">
             <Header/>
             <Outlet/>
+            <Footer/>
         </div>
     )
 }

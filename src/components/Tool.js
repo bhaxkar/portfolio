@@ -10,15 +10,19 @@ const ToolsCarousel = () => {
     { name: "Bootstrap", icon: "B", bgColor: "bg-purple-600", textColor: "text-white" },
     { name: "C++", icon: "C++", bgColor: "bg-blue-700", textColor: "text-white" },
     { name: "CSS", icon: "CSS", bgColor: "bg-blue-500", textColor: "text-white" },
-    { name: "nx", icon: "nx", bgColor: "bg-gray-800", textColor: "text-white" },
+    { name: "Node.js", icon: "♦", bgColor: "bg-green-800", textColor: "text-white" },
     { name: "Express", icon: "ex", bgColor: "bg-gray-800", textColor: "text-white" },
     { name: "TensorFlow", icon: "TF", bgColor: "bg-orange-600", textColor: "text-white" },
     { name: "Keras", icon: "K", bgColor: "bg-red-500", textColor: "text-white" },
-    { name: "Bun", icon: "🍞", bgColor: "bg-gray-800", textColor: "text-white" },
-    { name: "Flask", icon: "🧪", bgColor: "bg-gray-700", textColor: "text-white" },
-    { name: "Arch Linux", icon: "A", bgColor: "bg-blue-600", textColor: "text-white" },
     { name: "MongoDB", icon: "M", bgColor: "bg-green-600", textColor: "text-white" },
     { name: "PostgreSQL", icon: "pg", bgColor: "bg-blue-600", textColor: "text-white" },
+    { name: "Java", icon: "J", bgColor: "bg-red-700", textColor: "text-white" },
+    { name: "Python", icon: "Py", bgColor: "bg-yellow-400", textColor: "text-black" },
+    { name: "C", icon: "C", bgColor: "bg-blue-900", textColor: "text-white" },
+    { name: "AWS", icon: "☁", bgColor: "bg-orange-500", textColor: "text-white" },
+    { name: "Docker", icon: "🐳", bgColor: "bg-blue-400", textColor: "text-white" },
+    { name: "Linux", icon: "🐧", bgColor: "bg-gray-900", textColor: "text-white" },
+    { name: "GitHub", icon: "G", bgColor: "bg-gray-800", textColor: "text-white" }
   ];
 
   return (

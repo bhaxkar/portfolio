@@ -21,10 +21,6 @@ const About = () => {
               exploring the exciting domain of AI & ML.
             </p>
             <p className="font-mono text-sm md:text-base">
-              I've successfully tackled a variety of coding challenges, which
-              have enhanced my problem-solving skills.
-            </p>
-            <p className="font-mono text-sm md:text-base">
               I'm Seeking an SDE Internship to contribute to groundbreaking
               projects. Let's build something amazing together!
             </p>
