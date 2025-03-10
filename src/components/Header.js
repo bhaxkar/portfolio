@@ -3,7 +3,7 @@ import Resume from "../../public/resume.pdf"
 
 const Header = () => {
   return (
-    <div className="absolute left-1/2 transform -translate-x-1/2 w-full py-3">
+    <div className="absolute left-1/2 transform -translate-x-1/2 w-full mt-3">
       <nav className="flex justify-center space-x-8 md:space-x-12">
         <Link
           to="/"
