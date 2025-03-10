@@ -16,9 +16,8 @@ const About = () => {
           <div className="space-y-3 md:space-y-4">
             <p className="font-mono text-sm md:text-base">
               I'm Bhaskar Jha, a tech enthusiast with a solid foundation in
-              Computer Science. I have skills in MERN stack, Core Java (OOPs,
-              multithreading, collection framework, and exception handling),
-              Golang (concurrent programming), Python, SQL, AWS and I'm actively
+              Computer Science. I have skills in MERN stack, Core Java,
+              Golang, Python, SQL, AWS and I'm actively
               exploring the exciting domain of AI & ML.
             </p>
             <p className="font-mono text-sm md:text-base">
