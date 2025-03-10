@@ -6,7 +6,7 @@ const Footer = () => {
           
           <div className="flex justify-center">
             <a
-              href="mailto:bhaxkar@gmail.com"
+              href="mailto:bhaskarjha.info@gmail.com"
               className="group relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-mono font-medium text-custom-yellow border border-custom-yellow/30 rounded-full"
             >
               <span className="absolute w-0 h-full bg-custom-yellow left-0 top-0"></span>
