@@ -1,8 +1,10 @@
+import React from 'react';
 import ToolsCarousel from "./Tool.js";
+import Footer from "./Footer.js";
 
 const About = () => {
   return (
-    <div className="py-4 md:py-8">
+    <div className="mt-4 md:mt-8 flex flex-col gap-6">
       <div className="py-4 md:py-8 w-11/12 md:w-6/12 mx-auto backdrop-blur-sm bg-black/30 rounded-2xl shadow-2xl px-6 border border-gray-800 relative overflow-hidden">
         <div className="text-custom-yellow p-2 md:p-4">
           <h2 className="text-xl md:text-2xl font-mono text-center md:text-right mb-4 md:mb-6">
@@ -64,4 +66,5 @@ const About = () => {
     </div>
   );
 };
+
 export default About;
