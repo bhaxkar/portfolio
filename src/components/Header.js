@@ -3,7 +3,7 @@ import Resume from "../../public/resume.pdf"
 
 const Header = () => {
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-slate-900 w-full py-3">
+    <div className="w-full py-3">
       <nav className="flex justify-center space-x-8 md:space-x-12">
         <Link
           to="/"

@@ -3,9 +3,8 @@ import githubIcon from '../../public/icons/github.svg';
 
 const Body = () => {
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-black  py-4 md:py-8 flex items-center justify-center">
+    <div className="py-4 md:py-8 flex items-center justify-center">
       <div className="w-11/12 md:w-8/12 lg:w-6/12 mx-auto backdrop-blur-sm bg-black/40 p-6 md:p-8 rounded-2xl shadow-2xl border border-gray-800 relative overflow-hidden">
-    
         <div className="absolute -top-20 -right-20 w-40 h-40 bg-custom-yellow/10 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-custom-yellow/5 rounded-full blur-3xl"></div>
         
@@ -48,7 +47,7 @@ const Body = () => {
           <div className="text-custom-yellow mt-6">
             <div className="flex items-center mb-6">
               <div className="h-px bg-custom-yellow/30 flex-grow mr-4"></div>
-              <p className="text-2xl font-mono">Right Now, I'm</p>
+              <p className="text-xl font-mono">Right Now, I'm</p>
               <div className="h-px bg-custom-yellow/30 flex-grow ml-4"></div>
             </div>
             
@@ -73,30 +72,14 @@ const Body = () => {
                 <div className="flex items-start">
                   <span className="text-lg mr-3">➢</span>
                   <p className="text-lg">
-                    Working as <span className="font-bold">SDE Intern</span> at{" "}
-                    <a
-                      href="https://www.turnpikeanalyst.com/"
-                      className="underline decoration-dotted hover:text-red-200 transition-colors"
-                    >
-                      Turnpike Analyst
-                    </a>
-                    , contributing to innovative solutions.
-                  </p>
-                </div>
-              </li>
-              
-              <li className="bg-gray-800/20 p-4 rounded-lg hover:bg-gray-800/30 transition-colors duration-300 transform hover:scale-102">
-                <div className="flex items-start">
-                  <span className="text-lg mr-3">➢</span>
-                  <p className="text-lg">
                     Spearheading technical initiatives as the{" "}
                     <a
                       href="https://www.instagram.com/acmhitchapter/"
                       className="underline decoration-dotted hover:text-red-200 transition-colors"
                     >
                       ACM HIT Student Chapter's
-                    </a>{" "}
-                    <span className="font-bold">Tech Lead</span>.
+                    </a>
+                    .
                   </p>
                 </div>
               </li>

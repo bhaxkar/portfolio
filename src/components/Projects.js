@@ -86,7 +86,7 @@ const ProjectCard = ({ title, description, stack, status, link, demo }) => {
 
 const Projects = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black py-4 md:py-8">
+    <div className="py-4 md:py-8">
       <div className="container w-11/12 md:w-6/12 mx-auto px-4">
         <h1 className="text-2xl font-bold text-custom-yellow font-mono mb-6 text-right">
           Witness my tech stack
