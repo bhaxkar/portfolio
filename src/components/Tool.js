@@ -22,8 +22,8 @@ const ToolsCarousel = () => {
   ];
 
   return (
-    <div className="w-11/12 md:w-6/12 mx-auto mt-3 mb-12">
-      <div className="backdrop-blur-sm bg-black/30 p-4 md:p-6 rounded-xl shadow-xl">
+    <div className="w-11/12 md:w-6/12 mx-auto mt-3 mb-12 backdrop-blur-sm bg-black/30 p-4 md:p-6 rounded-2xl shadow-2xl border border-gray-800 relative overflow-hidden">
+     
         <h2 className="text-xl md:text-2xl font-mono text-custom-yellow text-center md:text-right mb-6 pt-4">
           Tools I've Mastered
         </h2>
@@ -49,7 +49,6 @@ const ToolsCarousel = () => {
             </div>
           ))}
         </div>
-      </div>
     </div>
   );
 };

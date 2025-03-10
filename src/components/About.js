@@ -2,9 +2,9 @@ import ToolsCarousel from "./Tool.js";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black py-4 md:py-8">
-      <div className="mt-12 md:mt-16 w-11/12 md:w-6/12 mx-auto backdrop-blur-sm bg-black/30 p-4 md:p-6 rounded-xl shadow-xl">
-        <div className="pt-6 md:pt-8 text-custom-yellow p-2 md:p-4">
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black  py-4 md:py-8">
+      <div className="w-11/12 md:w-6/12 mx-auto backdrop-blur-sm bg-black/30 rounded-2xl shadow-2xl border border-gray-800 relative overflow-hidden">
+        <div className="text-custom-yellow p-2 md:p-4">
           <h2 className="text-xl md:text-2xl font-mono text-center md:text-right mb-4 md:mb-6">
             Who am I?
           </h2>
