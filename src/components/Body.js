@@ -1,5 +1,5 @@
-import linkedinIcon from '../../assets/linkedin.svg';
-import githubIcon from '../../assets/github.svg';
+import linkedinIcon from '../../public/icons/linkedin.svg';
+import githubIcon from '../../public/icons/github.svg';
 
 const Body = () => {
   return (

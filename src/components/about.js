@@ -1,4 +1,4 @@
-import ToolsCarousel from "./Tool.js"
+import ToolsCarousel from "./Tool.js";
 
 const About = () => {
   return (
@@ -8,6 +8,11 @@ const About = () => {
           <h2 className="text-xl md:text-2xl font-mono text-center md:text-right mb-4 md:mb-6">
             Who am I?
           </h2>
+          <div className="relative mb-8">
+            <div className="h-0.5 bg-custom-yellow/20 w-full">
+              <div className="h-0.5 bg-custom-yellow w-1/2 absolute left-0"></div>
+            </div>
+          </div>
           <div className="space-y-3 md:space-y-4">
             <p className="font-mono text-sm md:text-base">
               I'm Bhaskar Jha, a tech enthusiast with a solid foundation in
@@ -31,7 +36,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <ToolsCarousel/>
+      <ToolsCarousel />
     </div>
   );
 };

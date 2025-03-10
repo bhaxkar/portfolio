@@ -22,7 +22,7 @@ const ToolsCarousel = () => {
   ];
 
   return (
-    <div className="w-11/12 md:w-6/12 mx-auto mt-16 mb-12">
+    <div className="w-11/12 md:w-6/12 mx-auto mt-3 mb-12">
       <div className="backdrop-blur-sm bg-black/30 p-4 md:p-6 rounded-xl shadow-xl">
         <h2 className="text-xl md:text-2xl font-mono text-custom-yellow text-center md:text-right mb-6 pt-4">
           Tools I've Mastered

@@ -5,7 +5,7 @@ import Header from './components/Header.js'
 import Body from './components/Body.js'
 import About from './components/About.js'
 import Error from './components/Error.js'
-
+import Projects from './components/Projects.js'
 
 const AppLayout = () =>{
     return(
@@ -31,6 +31,10 @@ const AppRouter = createBrowserRouter([
                 path: "/about",
                 element: <About/>
             },
+            {
+                path: "/projects",
+                element: <Projects/>
+            }
         ]
     }
 ])
