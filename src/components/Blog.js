@@ -5,7 +5,7 @@ const Blog = () => {
             <div className="w-11/12 md:w-8/12 lg:w-6/12 mx-auto backdrop-blur-sm bg-black/40 p-8  rounded-2xl shadow-2xl border border-gray-800 relative overflow-hidden">
                 <p className="text-custom-yellow text-2xl font-mono my-4">Blog</p>
 
-                <div className="flex items-start">
+                <div className="flex items-start my-2">
                   <span className="text-lg mr-3 text-custom-yellow"> ⤷
                   </span>
                    {" "}
@@ -20,7 +20,7 @@ const Blog = () => {
                     .
                 </div>
               
-                <div className="flex items-start">
+                <div className="flex items-start my-2">
                   <span className="text-lg mr-3 text-custom-yellow"> ⤷
                   </span>
                    {" "}
