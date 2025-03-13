@@ -15,7 +15,7 @@ const Blog = () => {
                       rel="noopener noreferrer"
                       className="text-base text-custom-yellow font-mono hover:text-red-200 transition-colors"
                     >
-                      Step by step guide to create aws high scalability infrastructure
+                      Step by Step Guide to Create AWS High Scalability Infrastructure
                     </a>
                     .
                 </div>
