@@ -1,4 +1,3 @@
-import React from 'react';
 import { 
   SiJavascript, SiTypescript, SiNextdotjs, SiReact, SiTailwindcss, SiCss3, SiNodedotjs, SiExpress, 
   SiTensorflow, SiKeras, SiMongodb, SiPostgresql, 
