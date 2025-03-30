@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "Chatter",
-    description: "The backend implementation for a video sharing platform like youtube",
+    description: "A modern real-time chat application that enables users to communicate instantly with each other",
     stack: ["express.js", "mongodb", "socket.io", "zustand", "tailwind-css", "bcrypt", "cloudinary", "jwt"],
     status: "In Progress",
     link: "https://github.com/bhaxkar/Chatter",
