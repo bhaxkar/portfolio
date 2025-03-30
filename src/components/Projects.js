@@ -1,11 +1,19 @@
 const projects = [
   {
+    title: "Chatter",
+    description: "The backend implementation for a video sharing platform like youtube",
+    stack: ["express.js", "mongodb", "socket.io", "zustand", "tailwind-css", "bcrypt", "cloudinary", "jwt"],
+    status: "In Progress",
+    link: "https://github.com/bhaxkar/Chatter",
+    demo: "https://videoverse-demo.example.com", 
+  },
+  {
     title: "VideoVerse",
     description: "The backend implementation for a video sharing platform like youtube",
-    stack: ["Express.js", "mongodb", "node.js", "bcrypt", "multer", "cloudinary", "jwt"],
+    stack: ["express.js", "mongodb", "node.js", "bcrypt", "multer", "cloudinary", "jwt"],
     status: "In Progress",
     link: "https://github.com/bhaxkar/VideoVerse",
-    demo: "https://videoverse-demo.example.com", // Add your demo link here
+    demo: "https://videoverse-demo.example.com", 
   },
   {
     title: "Foodify",
