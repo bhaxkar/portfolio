@@ -1,15 +1,15 @@
 const projects = [
   {
     title: "Chatter",
-    description: "A modern real-time chat application that enables users to communicate instantly with each other",
+    description: "Chatter is a fully responsive real-time chat app built with React.js and Tailwind CSS on the frontend, Node.js and Express.js on the backend, and Socket.io for real-time messaging.",
     stack: ["react.js", "express.js", "mongodb", "socket.io", "zustand", "tailwind-css", "bcrypt", "cloudinary", "jwt"],
-    status: "In Progress",
+    status: "Done",
     link: "https://github.com/bhaxkar/Chatter",
-    demo: "https://videoverse-demo.example.com", 
+    demo: "https://chatter-ay5s.onrender.com/", 
   },
   {
     title: "VideoVerse",
-    description: "The backend implementation for a video sharing platform like youtube",
+    description: "This repository contains the backend of VideoVerse, a video sharing platform built with Express.js, Node.js, and MongoDB.",
     stack: ["express.js", "mongodb", "node.js", "bcrypt", "multer", "cloudinary", "jwt"],
     status: "In Progress",
     link: "https://github.com/bhaxkar/VideoVerse",
@@ -17,7 +17,7 @@ const projects = [
   },
   {
     title: "Foodify",
-    description: "Modern food ordering frontend application",
+    description: "Foodify is a food ordering app built with React.js, React Router, Redux Toolkit, and Parcel, styled using Tailwind CSS, and partially tested with Jest and React Testing Library.",
     stack: ["react.js", "react-router", "redux-toolkit", "tailwind CSS", "jest", "react-testing-library"],
     status: "Done",
     link: "https://github.com/bhaxkar/Foodify",
