@@ -31,7 +31,7 @@ const Blog = () => {
           .
         </div>
 
-        <div className="flex items-start">
+        <div className="flex items-start my-2">
           <span className="text-lg mr-3 text-custom-yellow"> ⤷</span>{" "}
           <a
             href="https://medium.com/dev-genius/call-by-value-and-call-by-reference-a-contrast-between-c-and-java-3a6949b4918d"
