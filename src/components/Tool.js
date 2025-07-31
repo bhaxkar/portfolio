@@ -1,6 +1,6 @@
 import { 
   SiJavascript, SiTypescript, SiNextdotjs, SiReact, SiTailwindcss, SiCss3, SiNodedotjs, SiExpress, 
-  SiTensorflow, SiKeras, SiMongodb, SiPostgresql, 
+  SiMongodb, SiPostgresql, 
   SiPython, SiC,  SiDocker, SiLinux, SiGithub
 } from 'react-icons/si';
 import { FaAws, FaJava  } from "react-icons/fa";
@@ -15,8 +15,6 @@ const ToolsCarousel = () => {
     { name: "CSS", icon: <SiCss3 />, bgColor: "bg-blue-500", textColor: "text-white" },
     { name: "Node.js", icon: <SiNodedotjs />, bgColor: "bg-green-800", textColor: "text-white" },
     { name: "Express", icon: <SiExpress />, bgColor: "bg-gray-800", textColor: "text-white" },
-    { name: "TensorFlow", icon: <SiTensorflow />, bgColor: "bg-orange-600", textColor: "text-white" },
-    { name: "Keras", icon: <SiKeras />, bgColor: "bg-red-500", textColor: "text-white" },
     { name: "MongoDB", icon: <SiMongodb />, bgColor: "bg-green-600", textColor: "text-white" },
     { name: "PostgreSQL", icon: <SiPostgresql />, bgColor: "bg-blue-600", textColor: "text-white" },
     { name: "Java", icon: <FaJava />, bgColor: "bg-red-700", textColor: "text-white" },
@@ -29,7 +27,7 @@ const ToolsCarousel = () => {
   ];
 
   return (
-    <div className="w-11/12 md:w-6/12 mx-auto mt-3 mb-6 backdrop-blur-sm bg-black/30 p-4 md:p-6 rounded-2xl shadow-2xl border border-gray-800 relative overflow-hidden">
+    <div className="w-11/12 md:w-5/6 lg:w-6/12 mx-auto mt-3 mb-6 backdrop-blur-sm bg-black/30 p-4 md:p-6 rounded-2xl shadow-2xl border border-gray-800 relative overflow-hidden">
       <h2 className="text-xl md:text-2xl font-mono text-custom-yellow text-center md:text-right mb-6 pt-4">
         Tools I've Mastered
       </h2>

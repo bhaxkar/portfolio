@@ -1,11 +1,19 @@
 const projects = [
   {
     title: "Chatter",
-    description: "Chatter is a fully responsive real-time chat app built with React.js and Tailwind CSS on the frontend, Node.js and Express.js on the backend, and Socket.io for real-time messaging.",
+    description: "Chatter is a real-time chat app built with React.js and Tailwind CSS on the frontend, Node.js and Express.js on the backend, and Socket.io for real-time messaging.",
     stack: ["react.js", "express.js", "mongodb", "socket.io", "zustand", "tailwind-css", "bcrypt", "cloudinary", "jwt"],
     status: "Done",
     link: "https://github.com/bhaxkar/Chatter",
     demo: "https://chatter-ay5s.onrender.com/", 
+  },
+  {
+    title: "TapNPay",
+    description: "TapNPay is an e-wallet app built with React.js, Tailwind CSS, Node.js, Express.js, and MongoDB. It features secure, atomic transactions and robust input validation using Zod.",
+    stack: ["react.js", "express.js", "mongodb", "zod", "tailwind-css", "bcrypt", "cloudinary", "jwt"],
+    status: "Done",
+    link: "https://github.com/bhaxkar/TapNPay",
+    demo: "https://www.youtube.com/watch?v=FaLcGKA9VWs", 
   },
   {
     title: "VideoVerse",
@@ -95,7 +103,7 @@ const ProjectCard = ({ title, description, stack, status, link, demo }) => {
 const Projects = () => {
   return (
     <div className="py-4 md:py-8">
-      <div className="container w-11/12 md:w-6/12 mx-auto px-4">
+      <div className="container w-11/12 md:w-5/6 lg:w-6/12 mx-auto px-4">
         <h1 className="text-2xl font-bold text-custom-yellow font-mono mb-6 text-right">
           Witness my tech stack
         </h1>

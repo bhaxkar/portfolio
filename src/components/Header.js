@@ -4,22 +4,22 @@ import Resume from "../../public/resume.pdf"
 const Header = () => {
   return (
     <div className="w-full py-3">
-      <nav className="flex justify-center space-x-8 md:space-x-12">
+      <nav className="flex justify-center space-x-4 md:space-x-12">
         <Link
           to="/"
-          className="text-custom-yellow font-mono text-base md:text-lg font-semibold hover:text-red-200 hover:scale-110 cursor-pointer transition-all duration-300"
+          className="text-custom-yellow font-mono text-base md:text-lg font-semibold hover:text-red-300 hover:scale-110 cursor-pointer transition-all duration-300"
         >
           home
         </Link>
         <Link
           to="/about"
-          className="text-custom-yellow font-mono text-base md:text-lg font-semibold hover:text-red-200 hover:scale-110 cursor-pointer transition-all duration-300"
+          className="text-custom-yellow font-mono text-base md:text-lg font-semibold hover:text-red-300 hover:scale-110 cursor-pointer transition-all duration-300"
         >
           about
         </Link>
         <Link
           to="/projects"
-          className="text-custom-yellow font-mono text-base md:text-lg font-semibold hover:text-red-200 hover:scale-110 cursor-pointer transition-all duration-300"
+          className="text-custom-yellow font-mono text-base md:text-lg font-semibold hover:text-red-300 hover:scale-110 cursor-pointer transition-all duration-300"
         >
           projects
         </Link>
@@ -28,7 +28,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
           download
-          className="text-custom-yellow font-mono text-base md:text-lg font-semibold hover:text-red-200 hover:scale-110 cursor-pointer transition-all duration-300 flex items-center gap-2" 
+          className="text-custom-yellow font-mono text-base md:text-lg font-semibold hover:text-red-300 hover:scale-110 cursor-pointer transition-all duration-300 flex items-center gap-2" 
         >
           <span>resume</span>
           <svg

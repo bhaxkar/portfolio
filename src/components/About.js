@@ -1,11 +1,9 @@
-import React from 'react';
 import ToolsCarousel from "./Tool.js";
-import Footer from "./Footer.js";
 
 const About = () => {
   return (
     <div className="mt-4 md:mt-8 flex flex-col gap-6">
-      <div className="py-4 md:py-8 w-11/12 md:w-6/12 mx-auto backdrop-blur-sm bg-black/30 rounded-2xl shadow-2xl px-6 border border-gray-800 relative overflow-hidden">
+      <div className="py-4 md:py-8 w-11/12 md:w-5/6 lg:w-6/12 mx-auto backdrop-blur-sm bg-black/30 rounded-2xl shadow-2xl px-6 border border-gray-800 relative overflow-hidden">
         <div className="text-custom-yellow p-2 md:p-4">
           <h2 className="text-xl md:text-2xl font-mono text-center md:text-right mb-4 md:mb-6">
             Who am I?
@@ -17,13 +15,13 @@ const About = () => {
           </div>
           <div className="space-y-3 md:space-y-4">
             <p className="font-mono text-sm md:text-base">
-              I'm Bhaskar Jha, a tech enthusiast with a solid foundation in
-              Computer Science. I have skills in MERN stack, Core Java, Golang,
-              Python, SQL, AWS and I'm actively exploring the exciting domain of
-              AI & ML.
+              I'm Bhaskar Jha, a tech enthusiast currently working as a Full
+              Stack Developer Intern at Capsitech. I specialize in the MERN
+              stack and have strong proficiency in Core Java, Golang, Python,
+              SQL, and AWS.
             </p>
             <p className="font-mono text-sm md:text-base">
-              I'm Seeking an SDE Internship to contribute to groundbreaking
+              I'm Seeking an SDE position to contribute to groundbreaking
               projects. Let's build something amazing together!
             </p>
             <p className="font-mono text-sm md:text-base">

@@ -2,7 +2,7 @@
 const Blog = () => {
     return (
         <div className="py-2 flex items-center justify-center">
-            <div className="w-11/12 md:w-8/12 lg:w-6/12 mx-auto backdrop-blur-sm bg-black/40 p-8  rounded-2xl shadow-2xl border border-gray-800 relative overflow-hidden">
+            <div className="w-11/12 md:w-5/6 lg:w-6/12 mx-auto backdrop-blur-sm bg-black/40 p-8  rounded-2xl shadow-2xl border border-gray-800 relative overflow-hidden">
                 <p className="text-custom-yellow text-2xl font-mono my-4">Blog</p>
 
                 <div className="flex items-start my-2">

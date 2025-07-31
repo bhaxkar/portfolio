@@ -4,7 +4,7 @@ import githubIcon from '../../public/icons/github.svg';
 const Body = () => {
   return (
     <div className="py-4 md:py-8 flex items-center justify-center">
-      <div className="w-11/12 md:w-8/12 lg:w-6/12 mx-auto backdrop-blur-sm bg-black/40 p-6 md:p-8 rounded-2xl shadow-2xl border border-gray-800 relative overflow-hidden">
+      <div className="w-11/12 md:w-5/6 lg:w-6/12 mx-auto backdrop-blur-sm bg-black/40 p-6 md:p-8 rounded-2xl shadow-2xl border border-gray-800 relative overflow-hidden">
         <div className="absolute -top-20 -right-20 w-40 h-40 bg-custom-yellow/10 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-custom-yellow/5 rounded-full blur-3xl"></div>
         
@@ -52,6 +52,22 @@ const Body = () => {
             </div>
             
             <ul className="space-y-6 font-mono">
+              <li className="bg-gray-800/20 p-4 rounded-lg hover:bg-gray-800/30 transition-colors duration-300 transform hover:scale-102">
+                <div className="flex items-start">
+                  <span className="text-lg mr-3">➢</span>
+                  <p className="text-lg">
+                    Working as Full stack developer intern at{" "}
+                    <a
+                      href="https://www.capsitech.com/"
+                      className="underline decoration-dotted hover:text-red-200 transition-colors"
+                    >
+                      Capsitech IT Services
+                    </a>
+                    .
+                  </p>
+                </div>
+              </li>
+
               <li className="bg-gray-800/20 p-4 rounded-lg hover:bg-gray-800/30 transition-colors duration-300 transform hover:scale-102">
                 <div className="flex items-start">
                   <span className="text-lg mr-3">➢</span>
